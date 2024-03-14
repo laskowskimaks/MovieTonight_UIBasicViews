@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MovieTonight_UIBasicViews</string>
+    <string name="headerTextMain">Co masz ochotę dzisiaj obejrzeć?</string>
+    <string name="textMain">Rozpocznij szybki, jednorazowy quiz, dołącz do istniejącej grupy bez konieczności zakładania konta lub zaloguj się/ zarejestruj aby uzyskać więcej opcji w tym dostęp do quizu szczegółowego i profilującego.</string>
+    <string name="bttnQuickQuizMain">Szybki Quiz</string>
+    <string name="bttnGroupMain">Dołącz do grupy</string>
+    <string name="bttnLoginMain">Zaloguj się</string>
+    <string name="desc">null</string>
+    <string name="textLogin">Edytuj swoją nazwę:</string>
+    <string name="username">Username</string>
+    <string name="textGroup">Rozpocznij quiz grupą</string>
+</resources>

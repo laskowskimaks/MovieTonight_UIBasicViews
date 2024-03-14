@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_1"
+    tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:id="@+id/titleView"
+        android:layout_width="244dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/title" />
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="122dp"
+        android:layout_height="114dp"
+        android:contentDescription="@string/desc"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toStartOf="@+id/titleView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.484"
+        app:srcCompat="@drawable/logo2_nobg" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="336dp"
+        android:layout_height="551dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleView"
+        app:layout_constraintVertical_bias="0.449">
+
+        <TextView
+            android:id="@+id/headerTextMain"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:fontFamily="@font/jura_bold"
+            android:gravity="center"
+            android:shadowColor="#000000"
+            android:text="@string/headerTextMain"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textMain"
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:gravity="center"
+            android:text="@string/textMain"
+            android:insetBottom="15dp"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/quickQuizButton"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:insetLeft="40dp"
+            android:insetTop="15dp "
+            android:insetRight="40dp"
+            android:insetBottom="15dp"
+            android:text="@string/bttnQuickQuizMain"
+            app:backgroundTint="@color/bttnQuickQuizMain"
+            />
+
+        <Button
+            android:id="@+id/groupQuizButton"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:insetLeft="40dp"
+            android:insetRight="40dp"
+            android:insetTop="15dp"
+            android:insetBottom="15dp"
+            android:text="@string/bttnGroupMain"
+            app:backgroundTint="@color/bttnGroupMain"
+            />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:insetLeft="40dp"
+            android:insetRight="40dp"
+            android:insetTop="15dp"
+            android:insetBottom="15dp"
+            android:text="@string/bttnLoginMain"
+            app:backgroundTint="@color/bttnLoginMain"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
